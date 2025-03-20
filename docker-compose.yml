@@ -1,0 +1,9 @@
+verion: '3'
+services:
+  rabbitmq:
+    image:  rabbitmq:3-management
+    ports:
+      - "5672:5672" #Porta para comunicação ANQP
+      - "15672:15672" # Porta para a interface administrativa 
+
+      
